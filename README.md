@@ -39,7 +39,7 @@ power-bi/
   Report_Power_BI.pdf                      esportazione per chi non ha Power BI
   tema_adventureworks.json                 tema del report
   dizionario_dati.md                       tabelle, relazioni, colonne e formule delle misure
-Excel/
+excel/
   Controllo_Gestione_AdventureWorks.xlsx   controllo di gestione 2013 (10 fogli)
 screenshot/
   power-bi/   excel/                       immagini del report e del file Excel
@@ -92,7 +92,7 @@ Screenshot: [Panoramica](screenshot/power-bi/01_panoramica.png) · [Prodotti](sc
 
 ## 4. Controllo di gestione in Excel
 
-Il [file Excel](Excel/Controllo_Gestione_AdventureWorks.xlsx) confronta il **2013** con un **budget**, scompone gli scostamenti e misura quanto è affidabile un **forecast** fatto in corso d'anno. È indipendente dal report Power BI: stessa fonte, domande diverse.
+Il [file Excel](excel/Controllo_Gestione_AdventureWorks.xlsx) confronta il **2013** con un **budget**, scompone gli scostamenti e misura quanto è affidabile un **forecast** fatto in corso d'anno. È indipendente dal report Power BI: stessa fonte, domande diverse.
 
 - **Dati**: Power Query unisce tre viste e le raggruppa per mese e prodotto (1.921 righe). Nessun dato copiato a mano.
 - **Budget 2013** costruito con regole dichiarate e solo dati fino al 2012, perché il database non contiene un budget per l'online.
